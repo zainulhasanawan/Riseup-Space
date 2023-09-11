@@ -1,0 +1,541 @@
+/* HEADER */
+
+/**********************************************/
+
+@media (min-width: 1050px) and (max-width: 1450px) {
+  .header {
+    padding: 1.8rem 0;
+  }
+
+  .nav-li {
+    margin-right: 2rem;
+  }
+
+  nav li:nth-child(6) {
+    margin-right: 3rem;
+  }
+}
+
+/**********************************************/
+
+@media (min-width: 375px) and (max-width: 1050px) {
+  .burger {
+    display: block;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+}
+
+/**********************************************/
+
+/* HERO */
+
+@media (min-width: 900px) and (max-width: 1170px) {
+  .hero-h3 {
+    font-size: 1.4rem;
+  }
+
+  .hero-h1 {
+    font-size: 3.5rem;
+
+    margin-bottom: 5rem;
+  }
+}
+
+/**********************************************/
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .hero-content {
+    flex-direction: column;
+  }
+
+  .hero-section {
+    padding: 3rem 0 7rem 0;
+  }
+
+  .hero-text-div {
+    order: 2;
+  }
+
+  .hero-img-div {
+    order: 1;
+  }
+
+  .hero-img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+
+    margin-bottom: 5rem;
+  }
+
+  .hero-h3 {
+    font-size: 1.5rem;
+  }
+
+  .hero-h1 {
+    font-size: 3.7rem;
+
+    margin-bottom: 3rem;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+
+  .hero-design-left,
+  .hero-design-right {
+    display: none;
+  }
+}
+
+/**********************************************/
+
+@media (min-width: 375px) and (max-width: 600px) {
+  .hero-content {
+    flex-direction: column;
+  }
+
+  .hero-section {
+    padding: 3rem 0 7rem 0;
+  }
+
+  .hero-text-div {
+    order: 2;
+  }
+
+  .hero-img-div {
+    order: 1;
+  }
+
+  .hero-img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+
+    margin-bottom: 4rem;
+  }
+
+  .hero-h3 {
+    font-size: 1.2rem;
+  }
+
+  .hero-h1 {
+    font-size: 2.4rem;
+
+    margin-bottom: 3rem;
+  }
+
+  .btn {
+    font-size: 1.4em;
+
+    padding: 1.2rem 2rem;
+  }
+
+  .hero-design-left,
+  .hero-design-right {
+    display: none;
+  }
+}
+
+/**********************************************/
+
+/* About */
+
+@media (min-width: 375px) and (max-width: 1200px) {
+  .about-us {
+    flex-direction: column;
+  }
+
+  .about-text-div {
+    order: 2;
+  }
+
+  .about-img-div {
+    order: 1;
+  }
+
+  .about-img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+
+    margin-bottom: 5rem;
+  }
+}
+
+/**********************************************/
+
+@media (min-width: 450px) and (max-width: 650px) {
+  .about-h2 {
+    font-size: 2.5rem;
+  }
+
+  .about-p {
+    font-size: 1.6rem;
+  }
+}
+
+/**********************************************/
+
+@media (min-width: 375px) and (max-width: 450px) {
+  .about-h2 {
+    font-size: 2rem;
+  }
+
+  .about-p {
+    font-size: 1.2rem;
+  }
+}
+
+/**********************************************/
+
+/* Pricing */
+
+@media (min-width: 450px) and (max-width: 650px) {
+  .pricing-h2 {
+    font-size: 2.2rem;
+  }
+
+  .pricing-p {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/**********************************************/
+
+@media (min-width: 375px) and (max-width: 450px) {
+  .pricing-h2 {
+    font-size: 1.8rem;
+  }
+
+  .pricing-p {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/**********************************************/
+
+/* Banner */
+
+@media (min-width: 650px) and (max-width: 900px) {
+  .banner-flex-design > img {
+    width: 12rem;
+  }
+
+  .banner-h2 {
+    font-size: 2.8rem;
+  }
+}
+
+/**********************************************/
+
+@media (min-width: 375px) and (max-width: 650px) {
+  .banner-flex-design > img {
+    display: none;
+  }
+
+  .banner-flex-design {
+    justify-content: center;
+  }
+
+  .banner-h2 {
+    font-size: 2.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/**********************************************/
+
+/* Detailed Services */
+
+@media (min-width: 550px) and (max-width: 900px) {
+  .article-flex-div {
+    flex-direction: column;
+
+    padding: 0 5rem;
+  }
+
+  .article-text-div {
+    order: 2;
+
+    width: 100%;
+  }
+
+  .article-img-div {
+    width: 90%;
+
+    order: 1;
+  }
+
+  .article-img {
+    display: block;
+    margin: 0 auto;
+
+    margin-bottom: 3rem;
+  }
+
+  .article-ul-div {
+    gap: 3rem;
+  }
+
+  .article-ul {
+    width: 100%;
+  }
+
+  .special-ul {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .application-security-div {
+    gap: 0rem;
+  }
+}
+
+/**********************************************/
+
+@media (min-width: 375px) and (max-width: 600px) {
+  .article-flex-div {
+    flex-direction: column;
+
+    padding: 0 0rem;
+  }
+
+  .article-text-div {
+    order: 2;
+
+    width: 100%;
+  }
+
+  .article-img-div {
+    order: 1;
+
+    width: 100%;
+  }
+
+  .article-img {
+    display: block;
+    margin: 0 auto;
+
+    margin-bottom: 3rem;
+  }
+
+  .article-p {
+    font-size: 1.4rem;
+  }
+
+  .article-ul-div {
+    display: flex;
+    flex-direction: column;
+
+    gap: 0;
+  }
+
+  .article-ul {
+    width: 100%;
+  }
+
+  .special-ul {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+/**********************************************/
+
+/* Subscription Box */
+
+@media (min-width: 850px) and (max-width: 1150px) {
+  .email-box {
+    padding: 5rem 4rem;
+  }
+
+  .email-box-h3 {
+    font-size: 1.8rem;
+  }
+
+  .email-box-h2 {
+    font-size: 2.6rem;
+  }
+
+  .form {
+    width: 44rem;
+    height: 5.6rem;
+  }
+}
+
+/**********************************************/
+
+@media (min-width: 550px) and (max-width: 850px) {
+  .email-container {
+    width: 100%;
+  }
+
+  .email-box {
+    padding: 4rem 2.5rem;
+  }
+
+  .email-box-h3 {
+    font-size: 1.5rem;
+  }
+
+  .email-box-h2 {
+    font-size: 2.1rem;
+  }
+
+  .form {
+    width: 32rem;
+    height: 4.6rem;
+  }
+
+  .email-btn {
+    font-size: 1.4rem;
+
+    padding: 1rem 1rem;
+  }
+}
+
+/**********************************************/
+
+@media (min-width: 450px) and (max-width: 600px) {
+  .email-container {
+    width: 100%;
+  }
+
+  .email-box {
+    padding: 3.5rem 1.5rem;
+
+    border-radius: 0;
+  }
+
+  .email-box-h3 {
+    font-size: 1.1rem;
+  }
+
+  .email-box-h2 {
+    font-size: 1.5rem;
+  }
+
+  .form {
+    width: 25rem;
+    height: 3.8rem;
+  }
+
+  .email-btn {
+    font-size: 1.1rem;
+
+    padding: 1rem 1rem;
+  }
+}
+
+/**********************************************/
+
+@media (min-width: 375px) and (max-width: 450px) {
+  .pricing {
+    margin-bottom: 0;
+  }
+
+  .email-container {
+    width: 100%;
+  }
+
+  .email-box {
+    padding: 3.5rem 1rem;
+
+    border-radius: 0;
+  }
+
+  .email-box-h3 {
+    font-size: 1rem;
+  }
+
+  .email-box-h2 {
+    font-size: 1.4rem;
+  }
+
+  .form {
+    width: 20rem;
+    height: 3.5rem;
+  }
+
+  .email-btn {
+    font-size: 1rem;
+
+    padding: 0.7rem 1rem;
+  }
+
+  ::placeholder {
+    font-size: 1.1rem;
+  }
+}
+
+/**********************************************/
+
+/* Footer */
+
+@media (min-width: 650px) and (max-width: 1150px) {
+  .footer-div {
+    flex-wrap: wrap;
+  }
+
+  .footer-1 {
+    width: 50%;
+
+    margin-bottom: 6rem;
+  }
+
+  .footer-2 {
+    width: 45%;
+
+    margin-bottom: 6rem;
+  }
+
+  .footer-3 {
+    width: 50%;
+  }
+
+  .footer-4 {
+    width: 45%;
+  }
+}
+
+/**********************************************/
+
+@media (min-width: 375px) and (max-width: 650px) {
+  .footer-div {
+    flex-wrap: wrap;
+
+    margin-bottom: 3rem;
+  }
+
+  .footer-1 {
+    width: 100%;
+
+    margin-bottom: 4rem;
+  }
+
+  .footer-2 {
+    width: 100%;
+
+    margin-bottom: 4rem;
+  }
+
+  .footer-3 {
+    width: 100%;
+
+    margin-bottom: 4rem;
+  }
+
+  .footer-4 {
+    width: 100%;
+
+    margin-bottom: 4rem;
+  }
+}
+
+/**********************************************/
